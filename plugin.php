@@ -44,7 +44,8 @@ add_shortcode(
  */
 function md_react_app_enqueue_assets() {
 
-	$ver         = ( get_plugin_data( __FILE__ ) )['Version'];
+
+	$ver         = (get_file_data( __FILE__, ["Version" => "Version"], false ))['Version'];
 	$js_to_load  = plugin_dir_url( __FILE__ ) . 'app/build/static/js/main.js';
 	$css_to_load = plugin_dir_url( __FILE__ ) . 'app/build/static/css/main.css';
 
