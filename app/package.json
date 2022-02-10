@@ -32,7 +32,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "rewire": "^5.0.0"
   }
 }
